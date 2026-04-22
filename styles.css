@@ -60,6 +60,9 @@ h2 { font-size: clamp(2rem, 3.5vw, 3rem); }
 h3 { font-size: clamp(1.35rem, 2vw, 1.6rem); }
 h4 { font-size: 1.1rem; font-family: var(--font-body); font-weight: 600; letter-spacing: 0.02em; text-transform: uppercase; color: var(--color-accent-dark); }
 
+/* USP-Kacheln: Überschriften auf gemeinsame Mindest-Höhe, damit Text fluchtet */
+.grid.grid-4 > div:not(.card) h4 { min-height: 2.6em; }
+
 p { margin: 0 0 1rem; color: var(--color-ink-muted); }
 p.lead { font-size: 1.2rem; line-height: 1.6; color: var(--color-ink); max-width: 62ch; }
 
