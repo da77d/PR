@@ -151,15 +151,17 @@ section { padding: var(--section-y) 0; }
   color: var(--color-ink);
 }
 .brand-mark {
-  width: 38px; height: 38px;
+  width: 44px; height: 44px;
   border-radius: 8px;
+  display: block;
+  flex-shrink: 0;
+  object-fit: cover;
   background: var(--color-ink);
-  color: var(--color-accent);
-  display: grid; place-items: center;
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: 1.05rem;
-  letter-spacing: 0.01em;
+}
+/* Footer: subtle outline so the black square stays visible on dark bg */
+.site-footer .brand-mark {
+  outline: 1px solid rgba(255,255,255,0.12);
+  outline-offset: -1px;
 }
 .brand-sub {
   display: block;
