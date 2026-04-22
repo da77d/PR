@@ -397,22 +397,24 @@ section { padding: var(--section-y) 0; }
   list-style: none;
   padding: 0;
   margin: 0;
-  display: grid;
-  gap: 0.9rem;
 }
 .feature-list li {
-  display: flex;
-  gap: 0.9rem;
-  align-items: flex-start;
+  position: relative;
+  padding-left: 2.2rem;
   color: var(--color-ink);
+  line-height: 1.6;
+}
+.feature-list li + li {
+  margin-top: 0.9rem;
 }
 .feature-list li::before {
   content: "";
-  flex: 0 0 22px;
+  position: absolute;
+  left: 0;
+  top: 0.35em;
   width: 22px; height: 22px;
   border-radius: 50%;
   background: var(--color-accent);
-  margin-top: 3px;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'><polyline points='20 6 9 17 4 12'/></svg>");
   background-size: 13px;
   background-repeat: no-repeat;
