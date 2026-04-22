@@ -151,17 +151,13 @@ section { padding: var(--section-y) 0; }
   color: var(--color-ink);
 }
 .brand-mark {
-  width: 44px; height: 44px;
-  border-radius: 8px;
+  width: 52px; height: 52px;
   display: block;
   flex-shrink: 0;
-  object-fit: cover;
-  background: var(--color-ink);
+  object-fit: contain;
 }
-/* Footer: subtle outline so the black square stays visible on dark bg */
 .site-footer .brand-mark {
-  outline: 1px solid rgba(255,255,255,0.12);
-  outline-offset: -1px;
+  width: 48px; height: 48px;
 }
 .brand-sub {
   display: block;
