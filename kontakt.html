@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kontakt – PR Raumdesign</title>
+  <meta name="description" content="Kontaktieren Sie PR Raumdesign: Telefon, E-Mail und Kontaktformular für eine kostenfreie, unverbindliche Anfrage für Maler- und Bodenlegerarbeiten." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand" aria-label="Zur Startseite">
+      <span class="brand-mark">PR</span>
+      <span>PR Raumdesign<span class="brand-sub">Meisterbetrieb</span></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Menü öffnen"><span></span></button>
+    <nav class="nav" aria-label="Hauptnavigation">
+      <a href="index.html">Start</a>
+      <a href="malerarbeiten.html">Malerarbeiten</a>
+      <a href="bodenlegerarbeiten.html">Bodenlegerarbeiten</a>
+      <a href="ueber-uns.html">Über uns</a>
+      <a href="referenzen.html">Referenzen</a>
+      <a href="kontakt.html">Kontakt</a>
+      <a href="kontakt.html" class="btn btn-primary nav-cta">Termin anfragen</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Sprechen wir</span>
+    <h1>Ihr nächster Raum<br />beginnt mit einem Gespräch.</h1>
+    <p class="lead">Kostenfrei, unverbindlich, ehrlich. Schreiben Sie uns, rufen Sie an – oder vereinbaren Sie direkt einen Vor-Ort-Termin.</p>
+  </div>
+</section>
+
+<!-- Contact cards -->
+<section>
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h4>Telefon</h4>
+        <p style="font-family: var(--font-display); font-size: 1.6rem; color: var(--color-ink); margin-bottom:0.3rem;">
+          <a href="tel:+49">+49 · bitte eintragen</a>
+        </p>
+        <p style="color: var(--color-ink-muted); font-size: 0.9rem;">Mo–Fr · 08:00 – 18:00 Uhr</p>
+      </div>
+      <div class="contact-card">
+        <h4>E-Mail</h4>
+        <p style="font-family: var(--font-display); font-size: 1.3rem; margin-bottom:0.3rem;">
+          <a href="mailto:info@pr-raumdesign.de" style="color: var(--color-ink);">info@pr-raumdesign.de</a>
+        </p>
+        <p style="color: var(--color-ink-muted); font-size: 0.9rem;">Antwort meist innerhalb eines Arbeitstages</p>
+      </div>
+      <div class="contact-card">
+        <h4>Adresse</h4>
+        <p style="font-family: var(--font-display); font-size: 1.1rem; color: var(--color-ink); line-height:1.5; margin-bottom:0.3rem;">
+          PR Raumdesign<br />
+          Straße &amp; Hausnummer<br />
+          PLZ Ort
+        </p>
+        <p style="color: var(--color-ink-muted); font-size: 0.9rem;">Termine nach Vereinbarung</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact form + Info -->
+<section class="section-soft">
+  <div class="container">
+    <div class="split">
+      <div>
+        <span class="eyebrow">Anfrageformular</span>
+        <h2>Projekt beschreiben, Angebot erhalten.</h2>
+        <p>Je mehr Details Sie uns geben, desto genauer können wir kalkulieren. Gerne kommen wir auch zu einem kostenfreien Vor-Ort-Termin.</p>
+
+        <form class="form" action="#" method="post" novalidate>
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Vor- und Nachname" required />
+            </div>
+            <div class="field">
+              <label for="email">E-Mail</label>
+              <input id="email" name="email" type="email" placeholder="ihre@email.de" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="phone">Telefon (optional)</label>
+              <input id="phone" name="phone" type="tel" placeholder="Für Rückruf" />
+            </div>
+            <div class="field">
+              <label for="service">Leistung</label>
+              <select id="service" name="service">
+                <option>Malerarbeiten</option>
+                <option>Bodenlegerarbeiten</option>
+                <option>Beides kombiniert</option>
+                <option>Erstmal nur eine Frage</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">Nachricht</label>
+            <textarea id="message" name="message" placeholder="Beschreiben Sie Ihr Projekt: Räume, Flächen, Wunschtermin, Besonderheiten …" required></textarea>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" id="dsgvo" name="dsgvo" required />
+            <label for="dsgvo">Ich willige ein, dass meine Daten zur Bearbeitung der Anfrage verarbeitet werden. Details in der <a href="datenschutz.html" style="color: var(--color-accent-dark); text-decoration: underline;">Datenschutzerklärung</a>.</label>
+          </div>
+          <div>
+            <button type="submit" class="btn btn-primary btn-arrow">Anfrage senden</button>
+          </div>
+        </form>
+      </div>
+
+      <div>
+        <span class="eyebrow">So läuft's weiter</span>
+        <h2>Ihr Weg zum Angebot</h2>
+        <ul class="feature-list">
+          <li><strong>Innerhalb eines Werktages</strong> melden wir uns per Telefon oder E-Mail zurück.</li>
+          <li><strong>Vor-Ort-Termin</strong> – kostenfrei, zur Aufmaßaufnahme und Beratung.</li>
+          <li><strong>Schriftliches Festpreisangebot</strong> – transparent und verbindlich.</li>
+          <li><strong>Projektstart</strong> nach Ihrer Freigabe, zum vereinbarten Termin.</li>
+          <li><strong>Gemeinsame Abnahme</strong> am Ende – inklusive Pflege­hinweisen.</li>
+        </ul>
+        <div class="meister-seal" style="margin-top:1.5rem;"><span class="seal-icon">✓</span> Eingetragener Meisterbetrieb</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Map placeholder -->
+<section>
+  <div class="container">
+    <div class="section-header">
+      <span class="eyebrow">Unser Einzugsgebiet</span>
+      <h2>Wir arbeiten in Ihrer Region.</h2>
+      <p class="lead mx-auto" style="text-align:center;">Privat-, Gewerbe- und Objektkunden im Umkreis des Betriebssitzes. Fragen Sie einfach, ob wir zu Ihnen fahren – meist ja.</p>
+    </div>
+    <div style="height: 360px; border-radius: var(--radius-lg); background: linear-gradient(135deg,#f0f0f0 0%, #d5d5d5 100%); display:grid; place-items:center; color: var(--color-ink-muted); font-size: 0.95rem; border: 1px solid var(--color-line);">
+      Hier wird eine interaktive Karte eingebettet (z.B. Google Maps / OpenStreetMap).
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="brand" style="color:#fff; margin-bottom:1rem;">
+          <span class="brand-mark">PR</span>
+          <span>PR Raumdesign<span class="brand-sub">Meisterbetrieb</span></span>
+        </div>
+        <p style="color:#b5b5b5;">Ihr Meisterbetrieb für Maler- und Bodenlegerarbeiten. Handwerkliche Qualität, faire Preise, verlässliche Termine.</p>
+      </div>
+      <div>
+        <h4>Leistungen</h4>
+        <ul>
+          <li><a href="malerarbeiten.html">Malerarbeiten</a></li>
+          <li><a href="bodenlegerarbeiten.html">Bodenlegerarbeiten</a></li>
+          <li><a href="malerarbeiten.html#fassade">Fassadenarbeiten</a></li>
+          <li><a href="bodenlegerarbeiten.html#parkett">Parkett &amp; Designboden</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Unternehmen</h4>
+        <ul>
+          <li><a href="ueber-uns.html">Über uns</a></li>
+          <li><a href="referenzen.html">Referenzen</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul>
+          <li>Telefon: <a href="tel:+49">bitte eintragen</a></li>
+          <li>E-Mail: <a href="mailto:info@pr-raumdesign.de">info@pr-raumdesign.de</a></li>
+          <li>Web: pr-raumdesign.de</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>© <span id="year">2026</span> PR Raumdesign · Alle Rechte vorbehalten.</span>
+      <div class="legal-links">
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
