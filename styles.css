@@ -486,22 +486,36 @@ section { padding: var(--section-y) 0; }
 /* ---------- Testimonials ---------- */
 .quote {
   background: #fff;
-  padding: 2rem;
+  padding: 2.75rem 2rem 1.75rem;
   border-radius: var(--radius-md);
   border: 1px solid var(--color-line);
   position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .quote::before {
   content: "\201E";
   font-family: var(--font-display);
   position: absolute;
-  top: -25px; left: 12px;
-  font-size: 6rem;
+  top: -8px;
+  left: 18px;
+  font-size: 4rem;
   color: var(--color-accent);
   line-height: 1;
+  pointer-events: none;
 }
-.quote p { color: var(--color-ink); font-size: 1.05rem; font-style: italic; }
-.quote footer { display: flex; align-items: center; gap: 0.8rem; margin-top: 1rem; font-size: 0.9rem; color: var(--color-ink-muted); }
+.quote p { color: var(--color-ink); font-size: 1.05rem; font-style: italic; margin-bottom: 1.5rem; }
+.quote footer {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-line);
+  font-size: 0.9rem;
+  color: var(--color-ink-muted);
+}
 .quote footer strong { color: var(--color-ink); font-style: normal; }
 .quote-avatar {
   width: 40px; height: 40px; border-radius: 50%;
