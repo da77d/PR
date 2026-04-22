@@ -498,9 +498,9 @@ section { padding: var(--section-y) 0; }
   content: "\201E";
   font-family: var(--font-display);
   position: absolute;
-  top: -8px;
-  left: 18px;
-  font-size: 4rem;
+  top: -22px;
+  left: 20px;
+  font-size: 3.25rem;
   color: var(--color-accent);
   line-height: 1;
   pointer-events: none;
