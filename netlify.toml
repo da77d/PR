@@ -62,10 +62,10 @@
 
 # --- Wartungs-Redirect (standardmaessig AUS) ---
 #[[redirects]]
-#  from = "/*"
-#  to = "/wartung.html"
-#  status = 302
-#  force = true
+  from = "/*"
+  to = "/wartung.html"
+  status = 302
+  force = true
 
 # 404-Seite (muss am Ende stehen)
 [[redirects]]
