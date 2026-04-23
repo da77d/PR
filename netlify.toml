@@ -61,7 +61,7 @@
   status = 200
 
 # --- Wartungs-Redirect (standardmaessig AUS) ---
-#[[redirects]]
+[[redirects]]
   from = "/*"
   to = "/wartung.html"
   status = 302
