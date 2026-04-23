@@ -205,11 +205,18 @@ section { padding: var(--section-y) 0; }
   transition: transform .2s ease;
 }
 .nav a:hover::after, .nav a.active::after { transform: scaleX(1); }
-.nav-cta {
+.nav-cta,
+.nav a.nav-cta {
   margin-left: 0.5rem;
   flex-shrink: 0;
   padding: 0.85rem 1.5rem;
   font-size: 0.95rem;
+  color: #fff;
+  background: var(--color-accent);
+}
+.nav a.nav-cta:hover {
+  color: #fff;
+  background: var(--color-accent-dark);
 }
 .nav a.nav-cta::after { display: none; }
 
