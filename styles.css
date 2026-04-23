@@ -156,7 +156,7 @@ section { padding: var(--section-y) 0; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 96px;
+  min-height: 120px;
 }
 .brand {
   display: flex;
@@ -169,13 +169,13 @@ section { padding: var(--section-y) 0; }
   color: var(--color-ink);
 }
 .brand-mark {
-  width: 72px; height: 72px;
+  width: 96px; height: 96px;
   display: block;
   flex-shrink: 0;
   object-fit: contain;
 }
 .site-footer .brand-mark {
-  width: 64px; height: 64px;
+  width: 80px; height: 80px;
 }
 .brand-sub {
   display: block;
