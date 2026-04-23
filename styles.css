@@ -86,7 +86,12 @@ p.lead { font-size: 1.2rem; line-height: 1.6; color: var(--color-ink); max-width
   padding: 0 clamp(1.25rem, 3vw, 2rem);
 }
 section { padding: var(--section-y) 0; }
-.section-dark { background: var(--color-bg-dark); color: #ececec; }
+.section-dark {
+  background:
+    radial-gradient(ellipse at 92% 50%, rgba(200,16,46,0.22), transparent 55%),
+    var(--color-bg-dark);
+  color: #ececec;
+}
 .section-dark h1, .section-dark h2, .section-dark h3 { color: #fff; }
 .section-dark p { color: #b5b5b5; }
 .section-soft { background: var(--color-bg-soft); }
@@ -298,7 +303,9 @@ section { padding: var(--section-y) 0; }
 /* Page hero (smaller, for inner pages) */
 .page-hero {
   padding: 7rem 0 4rem;
-  background: var(--color-bg-dark);
+  background:
+    radial-gradient(ellipse at 88% 40%, rgba(200,16,46,0.22), transparent 55%),
+    var(--color-bg-dark);
   color: #fff;
 }
 .page-hero h1 { color: #fff; }
@@ -639,7 +646,9 @@ section { padding: var(--section-y) 0; }
 
 /* ---------- Footer ---------- */
 .site-footer {
-  background: var(--color-bg-dark);
+  background:
+    radial-gradient(ellipse at 90% 50%, rgba(200,16,46,0.18), transparent 55%),
+    var(--color-bg-dark);
   color: #b5b5b5;
   padding: 4rem 0 2rem;
 }
