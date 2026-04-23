@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Website in Überarbeitung – PR-Raumdesign Gütersloh</title>
+  <meta name="description" content="Die Website von PR-Raumdesign wird derzeit überarbeitet. Für Anfragen sind wir telefonisch und per E-Mail erreichbar." />
+  <meta name="robots" content="noindex, follow" />
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PR Raumdesign">
+  <meta property="og:image" content="images/logo.png">
+  <meta name="theme-color" content="#000000">
+  <link rel="preconnect" href="https://fonts.bunny.net">
+  <link href="https://fonts.bunny.net/css?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .wartung-wrap {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 3rem 1.5rem;
+    }
+    .wartung-inner {
+      max-width: 760px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .wartung-logo {
+      margin-bottom: 2rem;
+    }
+    .wartung-logo img {
+      width: 120px;
+      height: 120px;
+    }
+    .wartung-contact {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+      margin-top: 2.5rem;
+      text-align: left;
+    }
+    @media (max-width: 600px) { .wartung-contact { grid-template-columns: 1fr; } }
+    .wartung-card {
+      background: #fff;
+      border: 1px solid var(--color-line);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+    }
+    .wartung-card h4 { color: var(--color-accent-dark); margin-bottom: 0.4rem; }
+    .wartung-footer-legal {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: var(--color-ink-muted);
+    }
+    .wartung-footer-legal a {
+      color: var(--color-ink-muted);
+      margin: 0 0.75rem;
+    }
+  </style>
+</head>
+<body>
+
+<div class="wartung-wrap">
+  <div class="wartung-inner">
+
+    <div class="wartung-logo">
+      <img src="images/logo.png" alt="PR Raumdesign Logo" />
+    </div>
+
+    <span class="eyebrow">PR-Raumdesign Gütersloh</span>
+    <h1 style="margin-top: 0.5rem;">Website in Überarbeitung.</h1>
+    <p class="lead" style="margin-top: 1rem;">
+      Wir aktualisieren gerade unsere Inhalte und sind in Kürze wieder vollständig online.<br />
+      Für Anfragen erreichen Sie uns jederzeit persönlich:
+    </p>
+
+    <div class="wartung-contact">
+      <div class="wartung-card">
+        <h4>Telefon</h4>
+        <p style="font-family: var(--font-display); font-size: 1.4rem; color: var(--color-ink); margin-bottom:0.3rem;">
+          <a href="tel:+491628467815" style="color: var(--color-ink);">0162 846 7815</a>
+        </p>
+        <p style="color: var(--color-ink-muted); font-size: 0.9rem; margin:0;">Mo – Fr · 09:00 – 17:00 Uhr</p>
+      </div>
+      <div class="wartung-card">
+        <h4>E-Mail</h4>
+        <p style="font-family: var(--font-display); font-size: 1.2rem; margin-bottom:0.3rem;">
+          <a href="mailto:P.r-Raumdesign@gmx.de" style="color: var(--color-ink);">P.r-Raumdesign@gmx.de</a>
+        </p>
+        <p style="color: var(--color-ink-muted); font-size: 0.9rem; margin:0;">Antwort meist innerhalb eines Arbeitstages</p>
+      </div>
+    </div>
+
+    <p class="wartung-footer-legal">
+      PR-Raumdesign · Angelastraße 8 · 33332 Gütersloh
+      <br />
+      <a href="impressum.html">Impressum</a> ·
+      <a href="datenschutz.html">Datenschutz</a>
+    </p>
+
+  </div>
+</div>
+
+</body>
+</html>

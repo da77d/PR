@@ -33,7 +33,41 @@
   [headers.values]
     Cache-Control = "public, max-age=3600, must-revalidate"
 
-# 404-Seite
+# ============================================================
+# WARTUNGSMODUS – Toggle
+# ------------------------------------------------------------
+# Zum AKTIVIEREN:  die fuehrenden "#" vor den 5 Zeilen weiter unten entfernen.
+# Zum DEAKTIVIEREN: die "#" wieder davor setzen.
+# Netlify wertet Redirects in Reihenfolge aus – die erste Uebereinstimmung gewinnt.
+# Impressum, Datenschutz und die Wartungsseite selbst sind davor als Whitelist
+# deklariert und bleiben daher auch im Wartungsmodus erreichbar (Pflichtangaben).
+# Nach Commit in GitHub deployt Netlify automatisch in ~30 Sekunden.
+# ============================================================
+
+# --- Whitelist: diese Seiten sind auch im Wartungsmodus erreichbar ---
+[[redirects]]
+  from = "/impressum.html"
+  to = "/impressum.html"
+  status = 200
+
+[[redirects]]
+  from = "/datenschutz.html"
+  to = "/datenschutz.html"
+  status = 200
+
+[[redirects]]
+  from = "/wartung.html"
+  to = "/wartung.html"
+  status = 200
+
+# --- Wartungs-Redirect (standardmaessig AUS) ---
+#[[redirects]]
+#  from = "/*"
+#  to = "/wartung.html"
+#  status = 302
+#  force = true
+
+# 404-Seite (muss am Ende stehen)
 [[redirects]]
   from = "/*"
   to = "/404.html"
