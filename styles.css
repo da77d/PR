@@ -88,7 +88,7 @@ p.lead { font-size: 1.2rem; line-height: 1.6; color: var(--color-ink); max-width
 section { padding: var(--section-y) 0; }
 .section-dark {
   background:
-    radial-gradient(ellipse at 92% 50%, rgba(200,16,46,0.22), transparent 55%),
+    radial-gradient(ellipse at 92% 50%, rgba(200,16,46,0.35), transparent 65%),
     var(--color-bg-dark);
   color: #ececec;
 }
@@ -273,7 +273,7 @@ section { padding: var(--section-y) 0; }
   content: "";
   position: absolute; inset: 0;
   background:
-    radial-gradient(ellipse at 90% 50%, rgba(200,16,46,0.22), transparent 55%),
+    radial-gradient(ellipse at 90% 50%, rgba(200,16,46,0.35), transparent 65%),
     var(--color-bg-dark);
   z-index: -1;
 }
@@ -304,7 +304,7 @@ section { padding: var(--section-y) 0; }
 .page-hero {
   padding: 7rem 0 4rem;
   background:
-    radial-gradient(ellipse at 88% 40%, rgba(200,16,46,0.22), transparent 55%),
+    radial-gradient(ellipse at 88% 40%, rgba(200,16,46,0.35), transparent 65%),
     var(--color-bg-dark);
   color: #fff;
 }
